@@ -15,7 +15,7 @@ namespace BasicWebApp
     public partial class WebForm3 : System.Web.UI.Page
     {
 
-        private static string connectionString = "Data Source=tcp:flapjackco.database.windows.net,1433;Initial Catalog=flapjacks;User Id=csharp@flapjackco;Password=CookieTigerBus72$";
+        private static string connectionString = "Server=MLEGION\\SQLEXPRESS; Database=SampleDB;User Id=csharp;Password=password;";
 
         private static SqlConnection dbConnection = new SqlConnection(connectionString);
 
